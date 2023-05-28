@@ -1,9 +1,8 @@
-# Stop-the-Ball
 1.	Title Page
 
 Project Title: 	Stop the Ball
-Your Name: 	Danial Saleem
-Date: 	24-05-2023
+Name: 	Danial Saleem 
+Date: 	28-05-2023
 2.	Table of Contents
 
 	Introduction
@@ -16,24 +15,27 @@ Date: 	24-05-2023
 	User Controls
 	Gameplay Instructions
 	Results and Scoring
-	Conclusion
 	Future Enhancements
+	Class Diagram
+	Activity Diagram
+	Screenshots
+	Conclusion
 	References (if applicable)
 
 3.	Introduction
 
-The purpose of the game "Stop the Ball" is for the player to either catch or avoid balls that are falling from the top of the screen. Simple interactive game, that's all it is. This article serves as a resource for understanding the game's implementation details, gaming rules, and other important information.
+The purpose of the game "Stop the Ball" is for the player to either stop or avoid balls that are falling from the top of the screen. Simple interactive game, that's all it is. This article serves as a resource for understanding the game's implementation details, gaming rules, and other important information.
 Background information about the game:
 
-The game "Stop the Ball" tests players' reflexes and hand-eye coordination in the form of a traditional arcade game. The player controls a circular object at the bottom of the screen in a graphical scene, trying to catch balls that are falling. The game provides players of all ages with an enjoyable experience because to its simple and straightforward design. The scoring method rewards successful catches that take into consideration elements like overlapping with a reference circle or falling within or outside of it. "Stop the Ball" offers a compelling and fun gaming experience that motivates players to develop their catching abilities and get high scores by fusing fast-paced gameplay, scoring algorithms, and visually appealing components.
+The game "Stop the Ball" tests players' reflexes and hand-eye coordination in the form of a traditional arcade game. The player controls a circular object at the bottom of the screen in a graphical scene, trying to stop balls that are falling. The game provides players of all ages with an enjoyable experience because to its simple and straightforward design. The scoring method rewards successful catches that take into consideration elements like overlapping with a reference circle or falling within or outside of it. "Stop the Ball" offers a compelling and fun gaming experience that motivates players to develop their catching abilities and get high scores by fusing fast-paced gameplay, scoring algorithms, and visually appealing components.
 
 The Document's Goal:
 
 The objective of this article is to give a thorough description of the game "Stop the Ball" along with all of its features. It strives to provide readers with an accurate understanding of the game's controls, mechanics, scoring system, along with other crucial features. The information provided is meant for gamers who are interested in learning more about the game as well as for game creators.
 Overview of the Game's Features:
 The features of the game is given in the following:
-	Player Control: The player can move a circular object at the bottom of the screen horizontally to catch the falling balls.
-	Falling Balls: Balls descend from the top of the screen at a constant speed. The player needs to catch as many balls as possible.
+	Player Control: The player can move a circular object at the bottom of the screen horizontally to stop the falling balls.
+	Falling Balls: Balls descend from the top of the screen at a constant speed. The player needs to stop as many balls as possible.
 	Scoring System: The player earns points for each ball caught successfully. Different conditions determine the number of points earned, such as overlapping with the reference circle or being completely inside or outside the circle.
 	Lives: The player starts with a certain number of lives. If a ball is missed or the player fails to meet the scoring conditions, a life is deducted. The game continues until all lives are exhausted.
 	Game Over: When all lives are lost, the game ends. The player's final score is displayed, and an option to restart the game is provided.
@@ -41,9 +43,9 @@ The features of the game is given in the following:
 
 4.	Game Overview
 
-"Stop the Ball" is a simple and addictive arcade-style game that provides a fun and engaging experience for players. The objective of the game is to catch falling balls by controlling a circular object positioned at the bottom of the screen. The player must move their object horizontally to align with the descending balls and successfully catch them.
+"Stop the Ball" is a simple and addictive arcade-style game that provides a fun and engaging experience for players. The objective of the game is to stop falling balls by controlling a circular object positioned at the bottom of the screen. The player must move their object horizontally to align with the descending balls and successfully stop them.
 
-The game's mechanics are easy to understand, making it accessible to a wide range of players. It requires quick reflexes and precise hand-eye coordination to effectively maneuver the player's object and catch as many balls as possible. The gameplay becomes progressively challenging as the speed of the falling balls increases, testing the player's agility and reaction time.
+The game's mechanics are easy to understand, making it accessible to a wide range of players. It requires quick reflexes and precise hand-eye coordination to effectively maneuver the player's object and stop as many balls as possible. The gameplay becomes progressively challenging as the speed of the falling balls increases, testing the player's agility and reaction time.
 
 With its fast-paced gameplay and simple controls, "Stop the Ball" offers an enjoyable experience for players looking for a quick gaming session or a casual gaming option. Its addictive nature encourages players to continuously improve their catching skills and aim for higher scores, fostering a sense of achievement and competition.
 
@@ -90,15 +92,15 @@ Relationships between Classes and Objects
 Overall, the object-oriented design in "Stop the Ball" promotes code organization, encapsulation, and separation of concerns. Each class has its specific responsibilities, and the relationships between classes facilitate effective communication and collaboration, resulting in a well-structured and maintainable game implementation.
 6.	Game Features and Mechanics
 Features and Mechanics of the game is given in the following:
-	Catching Balls: The primary objective of the game is to catch falling balls. The player controls a circular object positioned at the bottom of the screen and must align it with the descending balls to catch them. This requires precise movement and timing to successfully catch as many balls as possible.
+	Catching Balls: The primary objective of the game is to stop falling balls. The player controls a circular object positioned at the bottom of the screen and must align it with the descending balls to stop them. This requires precise movement and timing to successfully stop as many balls as possible.
 
 	Increasing Difficulty: The game progressively becomes more challenging as the speed of the falling balls increases. This adds excitement and tests the player's agility and reaction time. With each level or score milestone, the game can introduce faster and more unpredictable ball movements, keeping the gameplay engaging and stimulating.
 
 	Scoring System: The game incorporates a scoring system to track the player's performance. Each time a ball is caught, the player earns points. The score is displayed on the screen, motivating the player to aim for higher scores and beat their previous records.
 
-	Lives and Game Over: The player starts with a certain number of lives, representing the number of chances they have to Stop the Balls. If the player fails to catch a ball and it reaches the bottom of the screen, a life is deducted. Once all lives are depleted, the game ends, and the player is presented with a game over screen. This adds a sense of challenge and urgency to the gameplay.
+	Lives and Game Over: The player starts with a certain number of lives, representing the number of chances they have to stop the Balls. If the player fails to stop a ball and it reaches the bottom of the screen, a life is deducted. Once all lives are depleted, the game ends, and the player is presented with a game over screen. This adds a sense of challenge and urgency to the gameplay.
 
-	Graphics and Visual Feedback: The game incorporates visual elements to enhance the player's experience. It utilizes graphics and colors to create an engaging and visually appealing environment. When a ball is caught or missed, visual feedback is provided to the player, such as highlighting the successful catch or displaying the missed catch. These visual cues contribute to the overall enjoyment and immersion of the game.
+	Graphics and Visual Feedback: The game incorporates visual elements to enhance the player's experience. It utilizes graphics and colors to create an engaging and visually appealing environment. When a ball is caught or missed, visual feedback is provided to the player, such as highlighting the successful stop or displaying the missed catch. These visual cues contribute to the overall enjoyment and immersion of the game.
 
 	Simple Controls: The game features simple controls to make it accessible to players of all skill levels. Typically, the player can use keyboard inputs, such as arrow keys or spacebar, to control the movement of the player object. The simplicity of the controls allows players to quickly understand and start playing the game without any complex learning curve.
 
@@ -107,26 +109,26 @@ Features and Mechanics of the game is given in the following:
 Overall, the game's features and mechanics combine to create an engaging and addictive gameplay experience. With its simple controls, increasing difficulty, scoring system, and visual feedback, "Stop the Ball" offers a challenging yet enjoyable arcade-style game that can be played repeatedly for fun and competition.
 Game Mechanics and Controls:
 Control and Mechanics of the game is given in the following:
-	Catching Balls: The player controls a circular object positioned at the bottom of the screen. The objective is to align this object with the falling balls to catch them. The player must move the object horizontally using the controls to position it under the descending balls.
+	Catching Balls: The player controls a circular object positioned at the bottom of the screen. The objective is to align this object with the falling balls to stop them. The player must move the object horizontally using the controls to position it under the descending balls.
 
-	Increasing Difficulty: As the game progresses, the speed of the falling balls gradually increases, making it more challenging to catch them. The game can implement different levels or score milestones to determine when the difficulty should be incremented. This can be achieved by adjusting the speed or behavior of the falling balls, introducing obstacles, or reducing the reaction time available to the player.
+	Increasing Difficulty: As the game progresses, the speed of the falling balls gradually increases, making it more challenging to stop them. The game can implement different levels or score milestones to determine when the difficulty should be incremented. This can be achieved by adjusting the speed or behavior of the falling balls, introducing obstacles, or reducing the reaction time available to the player.
 
 	Scoring System: Each time the player successfully catches a ball, they earn points. The score is incremented based on the difficulty or value assigned to each caught ball. The score is displayed on the screen, allowing the player to track their progress and aim for higher scores. The game can also implement bonus points for special achievements, such as catching multiple balls in quick succession or reaching specific score milestones.
 
-	Lives and Game Over: The player starts with a certain number of lives, representing the number of chances they have to Stop the Balls. If a ball reaches the bottom of the screen without being caught, a life is deducted. When all lives are depleted, the game ends, and a game over screen is displayed. The player may have the option to restart the game and try to achieve a better score.
+	Lives and Game Over: The player starts with a certain number of lives, representing the number of chances they have to stop the Balls. If a ball reaches the bottom of the screen without being caught, a life is deducted. When all lives are depleted, the game ends, and a game over screen is displayed. The player may have the option to restart the game and try to achieve a better score.
 
 	Graphics and Visual Feedback: The game utilizes graphics and colors to create a visually appealing environment. When a ball is caught, visual feedback is provided to indicate the successful catch, such as highlighting the caught ball or displaying a small animation. Conversely, when a ball is missed, visual feedback can be given to indicate the missed catch, such as fading out the ball or displaying a "miss" message. These visual cues enhance the player's immersion in the game and provide immediate feedback on their performance.
 
 	Simple Controls: The game features simple controls to make it easy for players to interact with the game. Typically, arrow keys or the spacebar are used for movement and actions. The left and right arrow keys can be used to move the player object horizontally, aligning it with the falling balls. The spacebar may be used to perform specific actions, such as catching the balls or triggering power-ups. The controls are intuitive and responsive, allowing players to quickly grasp the gameplay mechanics and enjoy the game without any steep learning curve.
 
-By combining these game mechanics and controls, "Stop the Ball" provides an engaging and accessible gameplay experience. Players must demonstrate agility and timing to catch the falling balls, while the increasing difficulty and scoring system motivate them to improve their performance and achieve higher scores. The visual feedback and simple controls contribute to the overall enjoyment and immersion of the game.
+By combining these game mechanics and controls, "Stop the Ball" provides an engaging and accessible gameplay experience. Players must demonstrate agility and timing to stop the falling balls, while the increasing difficulty and scoring system motivate them to improve their performance and achieve higher scores. The visual feedback and simple controls contribute to the overall enjoyment and immersion of the game.
 
 7.	Gameplay Modes
-While the provided code does not include different gameplay modes, we can explore potential gameplay modes and their objectives and mechanics. However, gameplay modes can be implemented to enhance the variety and replayability of the game. Here are some potential gameplay modes that could be incorporated:
+While the provided code does not include different gameplay modes, we can explore potential gameplay modes and their objectives and mechanics. However, gameplay modes can be implemented to enhance the variety and replay ability of the game. Here are some potential gameplay modes that could be incorporated:
 
-	Classic Mode: This mode represents the standard gameplay experience as described in the provided code. The objective is to catch falling balls and achieve the highest score possible while managing a limited number of lives. The player must move the catching object horizontally to align it with the falling balls and catch them successfully. The game progressively increases in difficulty, challenging the player's reflexes and timing.
+	Classic Mode: This mode represents the standard gameplay experience as described in the provided code. The objective is to stop falling balls and achieve the highest score possible while managing a limited number of lives. The player must move the catching object horizontally to align it with the falling balls and stop them successfully. The game progressively increases in difficulty, challenging the player's reflexes and timing.
 
-	Time Trial Mode: In this mode, the player is given a specific time limit to catch as many balls as possible. The objective is to accumulate the highest score within the given time constraint. The player must catch the falling balls efficiently to maximize their score within the limited timeframe. The game may provide bonus time for successful catches or introduce time penalties for missed catches, adding a sense of urgency.
+	Time Trial Mode: In this mode, the player is given a specific time limit to stop as many balls as possible. The objective is to accumulate the highest score within the given time constraint. The player must stop the falling balls efficiently to maximize their score within the limited timeframe. The game may provide bonus time for successful catches or introduce time penalties for missed catches, adding a sense of urgency.
 
 	Endless Mode: In this mode, there are no time limits or set number of lives. The objective is to survive for as long as possible by catching the falling balls. The game continuously increases in difficulty, challenging the player's endurance and skill. The player aims to achieve the highest score and can compare their performance with previous attempts or other players.
 
@@ -163,12 +165,12 @@ Education and Skill Development:
 	Use Case: Hand-Eye Coordination Training
 
 	Scenario: The game is used as a training tool to improve hand-eye coordination and reflexes.
-	Scenario: Players must react quickly and precisely to catch the falling balls, honing their motor skills and coordination.
+	Scenario: Players must react quickly and precisely to stop the falling balls, honing their motor skills and coordination.
 	Scenario: The game's increasing difficulty challenges players to continuously improve their reaction time and accuracy.
 	Use Case: Cognitive Development for Children
 
 	Scenario: The game is utilized in educational settings to engage children and promote cognitive development.
-	Scenario: Children practice visual tracking, concentration, and decision-making skills while trying to Stop the Balls.
+	Scenario: Children practice visual tracking, concentration, and decision-making skills while trying to stop the Balls.
 
 	Scenario: The game's colorful visuals and simple gameplay mechanics make it appealing and accessible to young learners.
 Stress Relief and Relaxation:
@@ -193,6 +195,7 @@ Rehabilitation and Therapy:
 These use cases and scenarios demonstrate the versatility of the "Stop the Ball" game beyond entertainment. Whether used for casual gaming, education, skill development, stress relief, or therapy, the game offers engaging and accessible gameplay mechanics that can be effectively utilized in various contexts.
 
 9.	User Interaction and Interface
+
 The "Stop the Ball" game incorporates a user-friendly interface that enhances the player's interaction and overall gaming experience. The following elements contribute to the design of the user interface:
 
 Visual Elements:
@@ -234,19 +237,22 @@ Main Menu:
 	Upon launching the game, the player is presented with a main menu screen.
 	The main menu typically includes options such as "Play," "Settings," "Leaderboards," and "Exit."
 	Players can navigate through the menu options using keyboard inputs or by clicking on the corresponding buttons with a mouse cursor.
+
 Gameplay Controls:
 
 	Once the player selects the "Play" option, the actual game interface is displayed.
 	In the game, the player controls a catching object, usually represented by a circle or another shape.
 	The player can move the catching object horizontally using the arrow keys or mouse movements.
-	To catch the falling balls, the player can press the spacebar key or click the mouse button.
+	To stop the falling balls, the player can press the spacebar key or click the mouse button.
 	The controls are designed to be responsive and easy to understand, allowing players to quickly adapt and engage in the gameplay.
+
 Game Over and Restart:
 
 	When the player's lives reach zero or they choose to end the game, a "Game Over" screen is displayed.
 	The "Game Over" screen typically shows the player's final score and options to restart the game or return to the main menu.
 	Players can choose to restart the game by pressing any key or clicking the "Restart" button.
 	If the player decides to return to the main menu, they can navigate back using the arrow keys or mouse cursor.
+
 Pause and Resume:
 
 	Some games may include a pause feature that allows players to temporarily suspend the gameplay.
@@ -263,12 +269,15 @@ The "Stop the Ball" game is implemented using the C++ programming language, as e
 C++ Language:
 
 The game's logic and functionality are implemented using the C++ programming language. C++ is a widely used programming language known for its performance, versatility, and object-oriented capabilities. It allows for efficient memory management and provides the necessary features to create interactive games.
+
 Graphics Library:
 
 The game employs a graphics library to handle the visual elements and rendering of the game interface. In the provided code, the "graphics.h" library is used, which is a library commonly used with the Turbo C++ compiler. It provides functions for drawing shapes, lines, and text on the screen.
+
 Input Handling:
 
-The game utilizes input handling functions to capture user input and respond to player actions. The "conio.h" library is used in the provided code, which provides functions like "getch()" to read a keypress from the keyboard. It allows the game to detect user inputs such as arrow keys and the spacebar.
+The game utilizes input handling functions to capture user input and respond to player actions. The "conio.h" library is used in the provided code, which provides functions like "getch()" to read a key press from the keyboard. It allows the game to detect user inputs such as arrow keys and the spacebar.
+
 Development Environment:
 
 The code suggests that the game is developed using the Turbo C++ compiler and its associated integrated development environment (IDE). Turbo C++ is a popular C++ compiler for the Windows platform that provides a comprehensive development environment for writing and compiling C++ programs.
@@ -340,11 +349,13 @@ Integration testing:
 
 	To test how the various game elements interact with one another, conduct integration testing.
 	As an illustration, you can use the reference circle to test the integration between the player's movement and the collision detection.
+
 	Check to make sure the collision detection is precise and that the player's position is updated correctly based on user input.
 
 System evaluation:
 	To ensure that the game overall performs as anticipated, perform system-level testing.
 	Test different scenarios and gameplay elements like player movement, collision detection, score calculation, and game over circumstances.
+
 	Ensure that the game ends when the player's lives reach zero and that the score is updated accurately as the game progresses.
 
 User acceptance testing (UAT) entails:
@@ -358,6 +369,7 @@ Testing for regression:
 
 	Regression testing is necessary to make sure that updated features don't break existing functionality or result in new bugs.
 	Check that the game still performs as intended after changes by running previously completed tests again.
+
 	Check to see if any feature additions or bug fixes have any unintended consequences on how the game plays.
 
 Testing for usability:
@@ -406,14 +418,14 @@ Execution of the test:
 
 	QA experts carry out the planned tests in accordance with the test strategy.
 	In order to methodically check the game's functionality, they adhere to the predetermined test cases and scenarios.
-	As was already mentioned, they carry out various types of testing, including user acceptance testing, system testing, integration testing, and unit testing.
 
+	As was already mentioned, they carry out various types of testing, including user acceptance testing, system testing, integration testing, and unit testing.
 
 Tracking and managing bugs:
 	QA experts manage and track reported bugs and issues.
 	They record, organize, assign, and monitor the development of reported issues using bug tracking systems.
-	They collaborate closely with the development team to guarantee prompt bug fixes and appropriate resolution.
 
+	They collaborate closely with the development team to guarantee prompt bug fixes and appropriate resolution.
 
 Continuously improving:
 	Quality assurance is an iterative process that involves continuous development.
@@ -431,18 +443,21 @@ The best practices for code reviews:
 
 	QA experts take part in code reviews alongside the development team.
 	They make sure the code complies with coding standards, best practices, and guidelines.
+
 	They check the code for any possible quality problems, such as performance snags, error handling, security holes, and maintainability.
 
-Standards and Compliance:.
+Standards and Compliance:
 	QA specialists make sure that the game complies with all rules, regulations, and industry standards.
 	They check for compliance with pertinent regulations, including data privacy laws, security protocols, and accessibility standards.
 
 User experience and usability testing:
 	Testing the game's usability and user experience is a part of quality assurance.
 	QA experts carry out usability testing to collect feedback from stakeholders and users.
+
 	They evaluate the game's controls, user interface, and overall level of user satisfaction.
 
 Monitoring and improving performance:
+
 	QA experts keep an eye on how well the game plays both during testing and during production.
 	They measure important performance indicators, spot bottlenecks, and make optimization recommendations.
 	They collaborate with the development team to enhance the quality of the gaming experience overall and optimize resource usage.
@@ -453,30 +468,37 @@ Bugs or issues encountered and how they were resolved?
 Problems with collision detection:
 
 The player and reference circle are not accurately detected during collisions, which leads to inaccurate game behavior or scoring.
+
 Solution: Examine and troubleshoot the collision detection logic to make sure it accurately detects collisions between the player and the reference circle. Check the dimensions, conditions, and coordinates used in the collision detection algorithm.
 
 Problems with player movement:
 The player moves in a jerky or delayed manner because their motion is not smooth or responsive.
+
 Resolution: Verify that the player movement code is accurately updating the player's position based on user input. To ensure fluid and responsive movement, review the timing and animation logic.
 
 Conditions for game over:
 The player's lives do not properly end the game when they drop to zero.
+
 Resolution: Consider the logic and conditions of the game's end. Make sure the lives counter is updated properly and that the game transitions to the appropriate game-over screen or action when the lives reach zero.
 
 Issues with the display or graphics:
 The graphics in the game are not rendering correctly, or they appear warped or out of alignment.
+
 Resolution: Verify that the graphics rendering code is configured correctly and is compatible with the graphics library being used. For drawing game elements, make sure the dimensions and coordinates are accurate.
 
 Problems with input handling:
 Bug Description: The game does not respond to key presses or mouse clicks in a proper manner.
+
 Solution: Examine the user input handling code to ensure that it correctly recognizes and decodes user actions. Make sure the main loop of the game contains the input handling code correctly integrated.
 
 12.  Future Enhancements
 Ideas for future updates or improvements to the game:
 Sure, here are a few suggestions to improve the "Stop the Ball" game in the future:
- Levels and the Progression of Difficulty.
+ Levels and the Progression of Difficulty:
+
 	Implement multiple levels of escalating difficulty.
 	Add fresh difficulties, like quicker ball movement, smaller players, or more obstacles.
+
 	To keep players interested, each level may have special elements, visuals, or gameplay mechanics.
 Power-ups and unique abilities:
 
@@ -498,7 +520,9 @@ Leaderboards and Accomplishments:.
 
 Customization possibilities include:
 	Give the player character the option to be customized, such as with different colors, outfits, or accessories.
+
 	Enable players to customize the game's visual elements, such as the background and ball designs.
+
 
 Touch controls are compatible with mobile devices:
 	Modify the game to be compatible with mobile devices, with touch screen-friendly graphics and controls.
@@ -506,28 +530,31 @@ Touch controls are compatible with mobile devices:
 
 Social Media:
 	Integrate social media so that users can post their accomplishments or high scores on sites like Facebook and Twitter.
+
 	Add buttons for social sharing to the game's interface to make it simple to share.
 
 Upgraded visual effects and graphics:
 	Incorporate more intricate and eye-catching graphics into the game.
+
 	Increase the immersion and engagement of the gameplay by adding particle effects, animations, and visual feedback.
 
 Players Multiplayer Mode:
 
 	Include a multiplayer mode where users can engage in real-time rivalry.
 	Include options for online multiplayer or local multiplayer (on the same device).
+	
 	Provide options for players to compete against friends or take part in ranked matchmaking.
-
 Social Media:
 
 	Allow players to post their accomplishments or high scores on websites like Facebook and Twitter by integrating social media.
-	Include social sharing buttons in the game's interface for simple sharing.
 
+	Include social sharing buttons in the game's interface for simple sharing.
 
 Potential features or functionalities that could be added:
 Of course, here are some features or capabilities that might be included in the "Stop the Ball" game:
 Bonus Games:
-	Include bonus rounds where players have a set amount of time to catch as many balls as they can to earn extra points.
+	Include bonus rounds where players have a set amount of time to stop as many balls as they can to earn extra points.
+
 	Power-ups or other special gameplay elements may be available during bonus rounds.
 
 Challenges or mini-games:
@@ -536,61 +563,65 @@ Challenges or mini-games:
 
 Backgrounds that change frequently:
 	Include dynamic backgrounds that alter or develop as the game goes on.
+
 	Consider showing a change from day to night, varying the weather, or showcasing various landscapes.
 
 Seasonal themes and special occasions:
 	Introduce unique occasions or seasonal themes to temporarily alter the game.
+
 	Holiday-themed content during festive seasons, or Halloween-themed balls and backgrounds during October, are just a few examples.
 
 Time Attack mode:
-	Add a time attack mode where players race against the clock to catch as many balls as they can.
+	Add a time attack mode where players race against the clock to stop as many balls as they can.
 	Players can race to see who can complete the task in the shortest amount of time or with the highest score.
-
 Boss Wars:
-	Include difficult boss encounters in which players must catch balls while dodging the attacks of a strong boss character.
+
+	Include difficult boss encounters in which players must stop balls while dodging the attacks of a strong boss character.
 	Boss fights can add a strategic component and demand that players employ various strategies in order to win.
 
 Interactive Items:
 	Incorporate interactive game environment components or objects that have an impact on gameplay.
 	For instance, detachable obstacles, teleporters, or power-up stations that offer momentary advantages.
-
 Share or replay gameplay:
 	Enable players to replay their prior gameplay sessions.
 	Include a replay feature that enables players to watch and share their captured gameplay moments.
-
 Game currency and store:
 	Include an in-game currency system that allows players to purchase items by achieving high scores or finishing tasks.
 	Create a storefront where players can spend their earned money to buy new player avatars, ball designs, or power-ups.
 
 Co-operative multiplayer mode:
-	Include a multiplayer mode in which players cooperate to catch balls and rack up high scores.
+
+	Include a multiplayer mode in which players cooperate to stop balls and rack up high scores.
 	Allow for cooperative gameplay elements or unique teamwork skills.
 	When implementing new features, keep in mind to take the technical viability, game balance, and overall user experience into account. Which features appeal to players the most and make for a fun and engaging gaming experience can be determined by conducting user testing and obtaining feedback.
-
+Class Diagram,Activity Diagram,Screenshots,Game Start,After 3 Points,After 5 Points,& Game End are also attached.
 13.  Conclusion
  Summary of the document's key points:
+
 The "Stop the Ball" game, which was created using the graphics library and C++, is discussed in the document. The main points are summarized as follows:
 
 
-Overview of the game: In the "Stop the Ball" game, the player controls a character to attempt to catch balls that are falling from a reference circle.
+	Overview of the game: In the "Stop the Ball" game, the player controls a character to attempt to stop balls that are falling from a reference circle.
 
-Game Class: A class with the name "Game" was created to implement the game. It includes member variables for different game components, including player position, ball size, score, and lives.
+	Game Class: A class with the name "Game" was created to implement the game. It includes member variables for different game components, including player position, ball size, score, and lives.
 
-Game Loop: Until the player runs out of lives, the game is looped while it is being played. The loop has logic for drawing the player character, reference circle, and game board. It also manages user input for firing bullets.
+	Game Loop: Until the player runs out of lives, the game is looped while it is being played. The loop has logic for drawing the player character, reference circle, and game board. It also manages user input for firing bullets.
 
-Circle-to-circle collision detection: is used in the game to determine whether a player is inside, outside, or overlaps the reference circle. On the basis of the collision outcome, the scoring and lives are updated.
+	Circle-to-circle collision detection: is used in the game to determine whether a player is inside, outside, or overlaps the reference circle. On the basis of the collision outcome, the scoring and lives are updated.
 
-Game Over: A game over screen is shown when the player has used all of their lives. By pressing any key, the player has the option to start the game over.
+	Game Over: A game over screen is shown when the player has used all of their lives. By pressing any key, the player has the option to start the game over.
 
-Graphics and user interface: The game uses the graphics library to draw the game's rectangles, circles, and text. On the game board, it shows the score, lives, and controls.
+	Graphics and user interface: The game uses the graphics library to draw the game's rectangles, circles, and text. On the game board, it shows the score, lives, and controls.
 
-Quality Control: The importance of testing and quality assurance procedures in ensuring the game's functionality is briefly discussed in the document. However, the specific processes or testing methods used are not covered.
+	Quality Control: The importance of testing and quality assurance procedures in ensuring the game's functionality is briefly discussed in the document. However, the specific processes or testing methods used are not covered.
 
-Bugs and Issues: The document makes no mention of particular bugs or problems that were encountered during development or how they were fixed.
+	Bugs and Issues: The document makes no mention of particular bugs or problems that were encountered during development or how they were fixed.
 
-Future Updates and Improvements: To improve gameplay and engagement, future updates and improvements are suggested, including the addition of levels, power-ups, leaderboards, and multiplayer modes.
+	Future Updates and Improvements: To improve gameplay and engagement, future updates and improvements are suggested, including the addition of levels, power-ups, leaderboards, and multiplayer modes.
 
-Additional potential features are suggested, including mini-games, dynamic backgrounds, bonus rounds, and in-game currency systems.
+	Additional potential features are suggested, including mini-games, dynamic backgrounds, bonus rounds, and in-game currency systems.
+
+
 The document gives a general overview of the "Stop the Ball" game, its C++ implementation, and some recommendations for improvement and further development.
 
 Reflection on the significance of the game and its uses:
@@ -599,7 +630,7 @@ Despite its straightforward idea, the game "Stop the Ball" is significant in a n
 
 	The game offers players of all age’s entertainment and recreation. It is suitable for casual gaming sessions or quick breaks thanks to its simple mechanics and quick gameplay.
 
-	Development of skills of the game can aid in the improvement of reflexes and hand-eye coordination. To catch the falling balls, players must react quickly and move the player character, which helps them develop their motor skills and reaction times.
+	Development of skills of the game can aid in the improvement of reflexes and hand-eye coordination. To stop the falling balls, players must react quickly and move the player character, which helps them develop their motor skills and reaction times.
 
 
 	Catching the balls stimulates cognitive abilities because players must keep track of the motion of numerous objects at once. Cognitive skills like concentration, focus, and spatial awareness are stimulated by this.
@@ -617,6 +648,7 @@ Overall, the "Stop the Ball" game's importance lies in its capacity to entertain
 
 
 Closing thoughts:
+
 A straightforward but entertaining project, "Stop the Ball" shows how to implement a game using C++ and the graphics library. There is plenty of room for expansion and improvement even though the provided code provides a basic framework for the game.
 
 The opportunity for creativity, problem-solving, and the chance to create enjoyable experiences for players are all advantages of game development. Along with writing code, the game development process involves thinking about gameplay mechanics, user interface, graphics, sound, and quality assurance.
@@ -631,11 +663,6 @@ In conclusion, the "Stop the Ball" game serves as a jumping-off point for those 
 External sources or references used in the document:
 
 There were no outside sources or references used in the creation of the document. The knowledge and understanding of game development concepts and procedures that is used in the information is general.
-
-
-
-
-
 
 
 
