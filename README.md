@@ -594,7 +594,7 @@ Co-operative multiplayer mode:
 	Include a multiplayer mode in which players cooperate to stop balls and rack up high scores.
 	Allow for cooperative gameplay elements or unique teamwork skills.
 	When implementing new features, keep in mind to take the technical viability, game balance, and overall user experience into account. Which features appeal to players the most and make for a fun and engaging gaming experience can be determined by conducting user testing and obtaining feedback.
-Class Diagram,Activity Diagram,Screenshots,Game Start,After 3 Points,After 5 Points,& Game End are also attached.
+Class Diagram,Activity Diagram,Screenshots,Game Start,After 3 Points,After 5 Points & Game End are also attached.
 13.  Conclusion
  Summary of the document's key points:
 
